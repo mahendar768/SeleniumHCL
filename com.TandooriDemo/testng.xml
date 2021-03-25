@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tandooriorders">
+ 
+ <listeners>
+ <listener class-name="com.TandooriDemoUtils.TandooriTestUtils"/>
+ </listeners>
+   <test name="WebOrders">
+   <groups>
+<run>
+<include name="colNoPro">
+</include>
+<include name= "Food">
+</include>
+</run>
+
+</groups>
+  
+    <classes>
+      <class name="com.TandooriDemoTestcase.OrderTypeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
