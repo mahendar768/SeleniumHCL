@@ -17,10 +17,13 @@ import utils.TestUtils;
 public class BaseClass{
 	public static WebDriver driver;
 	public static Properties prop;
+	public String userdir;
 	public BaseClass() throws IOException {
 		try {
 			prop = new Properties();
-			 FileInputStream ip = new FileInputStream("C:\\Users\\Venkatesh Fin\\eclipse-workspace\\webOrders\\src\\main\\java\\Cofig\\configs.properties");
+			 userdir=System.getProperty("user.dir");
+			
+			 FileInputStream ip = new FileInputStream(".webOrders/src/main/java/Cofig/configs.properties");
 			 prop.load(ip);
 		}catch (IOException e) {
 			// TODO: handle exception
@@ -31,7 +34,7 @@ public class BaseClass{
 	public void initlization()  {
 		String BrowserName = prop.getProperty("Browser");
 		if(BrowserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Venkatesh Fin\\eclipse-workspace\\webOrders\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", ".webOrders/drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 			System.out.println("Chrome Opend...");
 			
