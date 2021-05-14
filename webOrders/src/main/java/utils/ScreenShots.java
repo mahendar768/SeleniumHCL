@@ -23,7 +23,7 @@ public class ScreenShots extends BaseClass{
 			try {
 				TakesScreenshot ts =(TakesScreenshot)driver;
 				File source = ts.getScreenshotAs(OutputType.FILE);
-				File dest = new File("C:\\Users\\Venkatesh Fin\\eclipse-workspace\\webOrders\\Screenshots\\Screenshot"+result.getName()+"@Time"+TestUtils.dateTimeGenerate()+".png");
+				File dest = new File(".webOrders/Screenshots/Screenshot"+result.getName()+"@Time"+TestUtils.dateTimeGenerate()+".png");
 				
 					org.openqa.selenium.io.FileHandler.copy(source, dest);
 					System.out.println("screenshot taken");
