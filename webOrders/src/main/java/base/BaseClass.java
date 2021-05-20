@@ -21,9 +21,9 @@ public class BaseClass{
 	public BaseClass() throws IOException {
 		try {
 			prop = new Properties();
-			 userdir=System.getProperty("user.dir");
+			// userdir=System.getProperty("user.dir");
 			
-			 FileInputStream ip = new FileInputStream(".webOrders/src/main/java/Cofig/configs.properties");
+			 FileInputStream ip = new FileInputStream("C:\\Users\\welcome\\eclipse-workspace\\EposHybrid\\webOrders\\src\\main\\java\\Cofig\\configs.properties");
 			 prop.load(ip);
 		}catch (IOException e) {
 			// TODO: handle exception
