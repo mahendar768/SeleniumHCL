@@ -37,7 +37,7 @@ public class  MenuWebPage extends BaseClass {
 	By Pizza_cat = By.xpath("//small[contains(.,'Pizza')])[2]");
 					
 	public MenuWebPage() throws IOException {
-		super();
+		//super();
 		PageFactory.initElements(driver, this);
 		
 	}

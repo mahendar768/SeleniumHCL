@@ -1,4 +1,4 @@
-package utils;
+	package utils;
 
 import org.testng.annotations.Test;
 
@@ -30,7 +30,7 @@ import org.testng.ITestContext;
 	  
 	  public void onStart(ITestContext testcontext) {
 			// TODO Auto-generated method stub
-			htmlreport = new ExtentSparkReporter("C:\\Users\\Venkatesh Fin\\eclipse-workspace\\webOrders\\ExtentReports\\extent@Time"+TestUtils.dateTimeGenerate()+".html");
+			htmlreport = new ExtentSparkReporter("C:\\Users\\welcome\\eclipse-workspace\\EposHybrid\\webOrders\\ExtentReports\\extent@Time"+TestUtils.dateTimeGenerate()+".html");
 			extent = new ExtentReports();
 			extent.attachReporter(htmlreport);
 			htmlreport.config().setDocumentTitle("EPOS Automation");
