@@ -36,7 +36,7 @@ public class OrderTypePageTest extends BaseClass  {
   }
   
   
-@Test(priority = 1,groups = {"colNoPro"})
+@Test(groups = {"colNoPro"})
   public void Verify_clickOnCollections() {
 	
 	ordertype.clickOnCollections();
@@ -61,7 +61,7 @@ public boolean radioButton_selectYes() {
 }
 
 
-@Test(priority =2 , groups = {"colNoPro"})
+@Test( groups = {"colNoPro"})
 public void verify_Proceed() throws Exception{ 
 	
 		 ordertype.clickOnProceed();
