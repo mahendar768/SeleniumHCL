@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-19T10:53:58Z" name="Default suite" finished-at="2021-03-19T10:54:16Z" duration-ms="17876">
+    <groups>
+      <group name="2">
+        <method signature="OrderTypeTest.Verify_Browse()[pri:3, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" name="Verify_Browse" class="com.TandooriDemoTestcase.OrderTypeTest"/>
+      </group> <!-- 2 -->
+      <group name="delNoPro">
+        <method signature="OrderTypeTest.radioButton_selectNo()[pri:2, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" name="radioButton_selectNo" class="com.TandooriDemoTestcase.OrderTypeTest"/>
+        <method signature="OrderTypeTest.verifty_clickOnDelivery()[pri:1, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" name="verifty_clickOnDelivery" class="com.TandooriDemoTestcase.OrderTypeTest"/>
+      </group> <!-- delNoPro -->
+      <group name="sanity">
+        <method signature="OrderTypeTest.Verify_clickOnCollections()[pri:1, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" name="Verify_clickOnCollections" class="com.TandooriDemoTestcase.OrderTypeTest"/>
+      </group> <!-- sanity -->
+      <group name="colNoPro">
+        <method signature="OrderTypeTest.Verify_clickOnCollections()[pri:1, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" name="Verify_clickOnCollections" class="com.TandooriDemoTestcase.OrderTypeTest"/>
+        <method signature="OrderTypeTest.radioButton_selectNo()[pri:2, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" name="radioButton_selectNo" class="com.TandooriDemoTestcase.OrderTypeTest"/>
+      </group> <!-- colNoPro -->
+    </groups>
+    <test started-at="2021-03-19T10:53:58Z" name="Default test" finished-at="2021-03-19T10:54:16Z" duration-ms="17876">
+      <class name="com.TandooriDemoTestcase.OrderTypeTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" started-at="2021-03-19T10:53:58Z" name="beforeClass" finished-at="2021-03-19T10:54:11Z" duration-ms="12402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Verify_clickOnCollections()[pri:1, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" started-at="2021-03-19T10:54:11Z" name="Verify_clickOnCollections" finished-at="2021-03-19T10:54:11Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_clickOnCollections -->
+        <test-method is-config="true" signature="screenshots_failedtcs(org.testng.ITestResult)[pri:0, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" started-at="2021-03-19T10:54:11Z" name="screenshots_failedtcs" finished-at="2021-03-19T10:54:11Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_clickOnCollections status=SUCCESS method=OrderTypeTest.Verify_clickOnCollections()[pri:1, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots_failedtcs -->
+        <test-method signature="verifty_clickOnDelivery()[pri:1, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" started-at="2021-03-19T10:54:11Z" name="verifty_clickOnDelivery" finished-at="2021-03-19T10:54:16Z" duration-ms="4935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifty_clickOnDelivery -->
+        <test-method is-config="true" signature="screenshots_failedtcs(org.testng.ITestResult)[pri:0, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" started-at="2021-03-19T10:54:16Z" name="screenshots_failedtcs" finished-at="2021-03-19T10:54:16Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifty_clickOnDelivery status=SUCCESS method=OrderTypeTest.verifty_clickOnDelivery()[pri:1, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots_failedtcs -->
+        <test-method signature="radioButton_selectNo()[pri:2, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" started-at="2021-03-19T10:54:16Z" name="radioButton_selectNo" finished-at="2021-03-19T10:54:16Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButton_selectNo -->
+        <test-method is-config="true" signature="screenshots_failedtcs(org.testng.ITestResult)[pri:0, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" started-at="2021-03-19T10:54:16Z" name="screenshots_failedtcs" finished-at="2021-03-19T10:54:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=radioButton_selectNo status=SUCCESS method=OrderTypeTest.radioButton_selectNo()[pri:2, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots_failedtcs -->
+        <test-method signature="Verify_Browse()[pri:3, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" started-at="2021-03-19T10:54:16Z" name="Verify_Browse" finished-at="2021-03-19T10:54:16Z" duration-ms="27" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"button[@class='one']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VENKATESH', ip: '192.168.0.133', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c3ca65912e6af070d94b7776fa99b7c5
+*** Element info: {Using=xpath, value=button[@class='one']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"button[@class='one']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VENKATESH', ip: '192.168.0.133', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c3ca65912e6af070d94b7776fa99b7c5
+*** Element info: {Using=xpath, value=button[@class='one']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at com.TandooriDemoPages.OrderTypePage.clickOnBrowse(OrderTypePage.java:58)
+at com.TandooriDemoTestcase.OrderTypeTest.Verify_Browse(OrderTypeTest.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Browse -->
+        <test-method is-config="true" signature="screenshots_failedtcs(org.testng.ITestResult)[pri:0, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28]" started-at="2021-03-19T10:54:16Z" name="screenshots_failedtcs" finished-at="2021-03-19T10:54:16Z" duration-ms="344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Browse status=FAILURE method=OrderTypeTest.Verify_Browse()[pri:3, instance:com.TandooriDemoTestcase.OrderTypeTest@28975c28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots_failedtcs -->
+      </class> <!-- com.TandooriDemoTestcase.OrderTypeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

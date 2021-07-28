@@ -1,0 +1,9 @@
+base\BaseClass.class
+utils\Copyprefer.class
+utils\Listeners.class
+pages\MenuWeb.class
+pages\CheckOutPage.class
+utils\TestUtils.class
+pages\OrderTypePage.class
+utils\ScreenShots.class
+utils\LoginTest.class

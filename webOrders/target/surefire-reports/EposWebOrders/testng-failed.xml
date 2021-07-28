@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [EposWebOrders]">
+  <listeners>
+    <listener class-name="utils.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="WebOrders(failed)">
+    <groups>
+      <run>
+        <include name="colNoPro"/>
+        <include name="Food"/>
+        <include name="out"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testPages.OrderTypePageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="Verify_clickOnCollections"/>
+        </methods>
+      </class> <!-- testPages.OrderTypePageTest -->
+      <class name="testPages.CheckOutPageTest">
+        <methods>
+          <include name="initilizeBrowser1"/>
+          <include name="screenshots_failedtcs"/>
+          <include name="verify_clickOnContinueAsGuest"/>
+        </methods>
+      </class> <!-- testPages.CheckOutPageTest -->
+      <class name="testPages.MenuWebPageTest">
+        <methods>
+          <include name="screenshots_failedtcs"/>
+          <include name="Verify_clickOnFoodMenu"/>
+          <include name="initilizeBrowser"/>
+        </methods>
+      </class> <!-- testPages.MenuWebPageTest -->
+    </classes>
+  </test> <!-- WebOrders(failed) -->
+</suite> <!-- Failed suite [EposWebOrders] -->
