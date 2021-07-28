@@ -41,6 +41,11 @@ public class Firstproject {
 		driver.findElement(By.xpath("(//a[@class='s-item__link'])[1]")).click();
 	}
 
+	@Test
+	public static void doubleclick ()
+	{
+		
+	}
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
