@@ -8,7 +8,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Firstprojectnew {
+public class Firstproject {
 	public static WebDriver driver;
 
 	@BeforeClass
@@ -42,7 +42,7 @@ public class Firstprojectnew {
 	}
 
 	@Test
-	public static void doubleclick ()
+	public static void doubleclickmasteroii ()
 	{
 		
 	}
