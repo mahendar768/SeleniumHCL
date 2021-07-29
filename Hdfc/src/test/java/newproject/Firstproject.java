@@ -42,7 +42,7 @@ public class Firstproject {
 	}
 
 	@Test
-	public static void doubleclick ()
+	public static void doubleclickgitpraticse ()
 	{
 		
 	}
