@@ -45,7 +45,7 @@ public class Firstproject {
 
 	
 
-	public static void doublemasterrevert()
+	public static void doubleclickgitpraticsenew ()
 
 	{
 		
