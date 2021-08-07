@@ -37,6 +37,7 @@ public class BaseClass{
 			System.setProperty("webdriver.chrome.driver", ".webOrders/drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 			System.out.println("Chrome Opend...");
+			System.out.println("new chrome");
 			
 		}else {
 			System.out.println("no browser....");
