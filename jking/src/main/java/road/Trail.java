@@ -14,7 +14,7 @@ public class Trail {
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\welcome\\eclipse-workspace\\jking\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();	
-		driver.get("https://www.redbus.in/");
+		driver.get("https://www.redbus.in");
 	}
 
 }
